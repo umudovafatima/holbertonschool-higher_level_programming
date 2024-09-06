@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-for letters in range(ord('a'), ord('z')+1):
-    if letters >= ord('a') and letters <= ord('z'):
-        print("a is {}".format(chr(letters)))
+def islower(c):
+    if 'a' <= c <= 'z':
+        return True
+    else:
+        return False
