@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-lis = [0,1,2,3,4,5,6,7,8,9]
-list = []
-for sal in range (10):
-    
-    print(list)
+#!/usr/bin/python3
+for i in range(1, 100):
+    if i % 10 > i // 10: 
+        if i < 89: 
+            print("{:02d}, ".format(i), end="")
+        else:
+            print("{:02d}".format(i))
